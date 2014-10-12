@@ -29,5 +29,4 @@ ADD conf/rice-config.xml /usr/share/tomcat7/kuali/main/dev/rice-config.xml
 ## Add war
 RUN cd /var/lib/tomcat7/webapps/; curl -o kr-dev.war http://nat.cucloud.net/kr-dev.war
 
-
 ENTRYPOINT ["/opt/start-tomcat.sh"]
