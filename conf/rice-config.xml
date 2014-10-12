@@ -1,0 +1,8 @@
+<config>
+	<param name="encryption.key">7IC64w6kAAAA</param>
+	<param name="datasource.ojb.platform">MySQL</param>
+	
+	<param name="filter.login.class">org.kuali.rice.krad.web.filter.AutoLoginFilter</param>
+	<param name="filter.login.autouser">khuntley</param>
+	<param name="filtermapping.login.1">/*</param>
+</config>
