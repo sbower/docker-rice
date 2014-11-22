@@ -22,7 +22,8 @@ or [http://192.168.59.103:8080/kr-dev](http://192.168.59.103:8080/kr-dev) if you
 
 To build the image, simply invoke
 
-    docker build github.com/sbower/docker-rice
+    cd docker-rice
+    docker build -t "docker-rice" .
 
 A prebuilt container is also available in the docker index
 
